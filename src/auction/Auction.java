@@ -11,11 +11,15 @@ package auction;
  */
 public class Auction {
 
+    public void AddAuctions(){
+    AddAuction add=new AddAuction();
+    add.setVisible(true);
+    }
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        AddAuctions();
     }
     
 }
